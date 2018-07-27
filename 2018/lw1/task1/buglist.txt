@@ -1,0 +1,21 @@
+HTML:
+    1. No title
+    2. No UTF-8 charset
+    3. No body close tag
+    4. No <div class="page"> indent
+    5. No labels for inputs
+    6. No placeholder for inputs
+    7. Invalid tag in class "password-block"
+    8. Invalid style link href
+
+CSS:
+    1. Formatting
+    2. footer class name
+    3. Invalid style name
+
+JS:
+    1. Invalid formatting in checkEmail()
+    2. Invalid condition in checkPassword()
+    3. Invalid definition in registration()
+    4. Invalid formatting and func defining in registration()
+    5. Invalid init registration name start function
