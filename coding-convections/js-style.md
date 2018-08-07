@@ -15,6 +15,7 @@
 * [О выборе имен переменных](https://learn.javascript.ru/variable-names)
 * [Советы от learnjs](https://learn.javascript.ru/coding-style)
 * [15 правил от tproger](https://tproger.ru/translations/15-rules-for-writing-quality-code/)
+* [CamelCase](https://ru.wikipedia.org/wiki/CamelCase)
 * [Самодокументируемый js-код](https://tproger.ru/articles/15-tips-selfdoc-js/)
 
 
