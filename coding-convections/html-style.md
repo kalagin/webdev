@@ -14,6 +14,6 @@
   * разделителями могут быть `-` или `_`, напрмер `navbar-block` или `main_content`
 
 ## Рекомендации по оформлению:
-[Хорошие рекомендации от Нетодологии](https://netology-university.bitbucket.io/codestyle/html/)
-
-[Рекомендации от Google](https://habr.com/post/143452/)
+* [Хорошие рекомендации от Нетодологии](https://netology-university.bitbucket.io/codestyle/html/)
+* [Рекомендации от Google](https://habr.com/post/143452/)
+* [Гайд от Академии HTML](http://codeguide.academy/html-css.html)
