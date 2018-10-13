@@ -11,7 +11,7 @@ var eliminateZero = function(number) {
   // your code
 }
 
-// TODO: get every third element in sequence
+// TODO: get every second element in sequence
 var everySecond = function(number) {
   // your code
 }
