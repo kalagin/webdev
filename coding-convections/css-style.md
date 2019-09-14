@@ -1,4 +1,4 @@
-# Оформление css кода
+# Оформление CSS кода
 
 ## Базовое соглашение форматирования кода
 * кодировка - **utf8**
@@ -12,9 +12,44 @@
   * разделителями могут быть `-` или `_` (например `navbar-block` или `main_content`)
 * глубина вложенности css стилей - **не более 3**
 
+## Основные правила при написании CSS кода
+
+### Фигурные скобки
+* открывающая фигурная скобка на той же строке объявления класса
+* открывающая фигурная скобка отделена от имени класса пробельным символом
+
+```css
+.product-block {
+  width: 600px;
+}
+```
+
+### Свойства классов
+* перед значением свойства css ставится пробел
+* каждое свойство на новой строке
+
+```css
+.logo {
+  width: 600px;
+}
+```
+
+### Перечисление классов, id, тегов в css
+* при перечеслении после каждой запятой ставится пробел
+
+```css
+h1, h2 {
+  padding: 20px;
+}
+
 ## Рекомендации по оформлению:
 
 * [Рекомендации от Google](https://habr.com/post/143452/)
 * [Базовые рекомендации от learnjs](https://learn.javascript.ru/css-format)
 * [Гайд от Академии HTML](http://codeguide.academy/html-css.html)
 * [Гайд от Нетологии](https://netology-university.bitbucket.io/codestyle/css/)
+* [Гайд от Нетологии](https://netology-university.bitbucket.io/codestyle/css/)
+
+## Полезные ссылки:
+
+* [Плагин для VSCode CSS Formatter](https://marketplace.visualstudio.com/items?itemName=aeschli.vscode-css-formatter)
