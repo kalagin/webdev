@@ -1,4 +1,3 @@
-
 window.onload = function () {
   var btn = document.getElementById('button');
   var txtArea = document.getElementById('textarea');
