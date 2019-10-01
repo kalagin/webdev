@@ -57,7 +57,7 @@ window.onload = function () {
       console.log('show completed');
     };
 
-    var filterShowCompleted = document.getElementById('filter-show-removed');
+    var filterShowRemoved = document.getElementById('filter-show-removed');
     filterShowRemoved.onclick = function () {
       console.log('show removed');
     };
