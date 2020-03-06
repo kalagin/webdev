@@ -1,7 +1,11 @@
 // шаблон сервера
 const express = require('express');
+const bodyParser = require('body-parser');
 const app = express();
- 
+
+// для того, чтобы можно было обрабатывать req.body
+app.use(bodyParser.json());
+
 app.get('/users', function (req, res) {
   /*
     На данном маршруте нужно вывести содержимое файла users.dat
