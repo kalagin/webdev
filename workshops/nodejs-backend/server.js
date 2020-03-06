@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // для того, чтобы можно было обрабатывать req.body
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.urlencoded());
 
 app.get('/users', function (req, res) {
   /*
