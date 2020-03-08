@@ -2,10 +2,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const cors = require('cors')
 
 // для того, чтобы можно было обрабатывать req.body
 app.use(bodyParser.text());
 app.use(bodyParser.json());
+
+// разрешаем CORS запросы на стороне сервера
+app.use(cors());
 
 app.get('/users', function (req, res) {
   /*
