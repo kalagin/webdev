@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.commander-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.listing-block select,
+.store-block select {
+  width: 300px;
+  height: 150px;
+}
+
+#add-button {
+  max-width: 200px;
+  margin-top: 20px;
+  padding: 10px;
+}
